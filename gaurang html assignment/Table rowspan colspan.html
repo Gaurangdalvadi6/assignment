@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table1.1</title>
+  </head>
+  <body>
+    <table border="1px solid blue" cellspacing="10px" cellpadding="10px">
+        <caption style="caption-side: bottom;">Table 4.1 Colspan , Colgroup , Rowspan</caption>
+        <colgroup>
+            <col span="3" style="background-color: aqua;"
+        </colgroup>
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Name</th>
+        <th>City</th>
+        <th>Phone No.</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td colspan="2">Punit  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Amdavad</td>
+        <!-- <td>Amdavad</td> -->
+        <td>9824396141</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Gaurang</td>
+        <td rowspan="2">Amdavad</td>
+        <td>9228371789</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Parth</td>
+        <!-- <td>Amdavad</td> -->
+        <td>99714141673</td>
+      </tr>
+    </tbody>
+</table>
+  </body>
+</html>
